@@ -1,19 +1,17 @@
- $.noConflict()
 
 
+//Tell js to give up the $ sign
+$.noConflict();
+
+//jQuery 3.x-style ready event and locally scoped $
 jQuery(function($) {
-    $('html').removeClass('nojs');
+
+	$('html').removeClass('nojs');
     $('html').addClass('hasjs');
 
-   $('#email').on('keyup focus blur', function() {
-     var currentValue = $(this).val();
-     var validPattern = $(this).attr('');
-     console.log(currentValue,validPattern);
-     if(currentValue.match(validPattern)) {
-       $('#submit').addClass('active');
-    } else {
-       $('#submit').removeClass('active');
-     }
-  });
- 
-  });
+
+
+
+
+
+});

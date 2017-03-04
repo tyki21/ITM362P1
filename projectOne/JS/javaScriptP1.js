@@ -9,9 +9,15 @@ jQuery(function($) {
 	$('html').removeClass('nojs');
     $('html').addClass('hasjs');
 
+$('#email').on('keyup focus blur', function(){
 
 
-
+var currval = $(this).val(); 
+var valpatt = $(this).attr('pattern');
+console.log(currval,valpatt);
+if(currval.match(valpatt)) {
+	$('#submit').addClass('active');
+}
 
 
 });

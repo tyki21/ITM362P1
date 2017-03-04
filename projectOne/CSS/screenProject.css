@@ -12,6 +12,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse;border-spacing: 0;}
 
+
+/*form css*/
 h1{
 	background-color: #C40233;
 	border: 5em;
@@ -67,6 +69,7 @@ ol{
     Ask about this and why won't the silly thing work
 }*/
 
+/*sumbit styles*/
 #space{
 	padding: 0.12em;
 }
@@ -80,4 +83,16 @@ ol{
     text-align: center;
 	line-height: inherit;
 	display: block;
+}
+
+
+/*state styles*/
+.hasjs input[type="submit"] {
+	position: absolute;
+	left: -10000px;
+}
+
+
+.hasjs input[type="submit"].active{
+	position: static;
 }

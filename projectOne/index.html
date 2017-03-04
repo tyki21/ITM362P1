@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="nojs">
 <head>
 	<title>Classes and Events - Yarnify</title>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes" />
 <link rel="stylesheet" media="screen" href="CSS/screenProject.css" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Slabo+27px" rel="stylesheet">
+
 </head>
 <body>
 <body>
@@ -14,15 +15,15 @@
 <h2>Winter 2017 Classes Available now!</h2>
 
 <p>Please fill out the following form in order to secure a spot in one of our classes!</p>
-<form id="knitting-form" method="GET">
+<form id="knitting-form" method="POST" action="Null">
 <label for="name"> First and Last Name: </label>
 <input type="text" name="name" id="name"/>
 
 <label for ="email"> Email: </label>
-<input type="email" name="email" id="email"/>
+<input type="email" name="email" id="email" pattern="[]"/>
 
 <label for="phone"> Phone Number: </label>
-<input type="tel" name="phone" id="phone" />
+<input type="tel" name="phone" id="phone" pattern="[0-9]* />
 
 <h3>Please pick a class that you would be interested in:</h3>
 
@@ -53,6 +54,8 @@
 <input type="submit" name="Submit" id="submit" value="Enroll Now!">
 </form>
 
-<script type="JS/javaScript.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="JS/javaScriptP1.js"></script>
 </body>
 </html>

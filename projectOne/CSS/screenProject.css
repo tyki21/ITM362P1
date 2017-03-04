@@ -13,10 +13,10 @@ q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content:
 table {border-collapse: collapse;border-spacing: 0;}
 
 h1{
-	background-color: #ED2B2B;
-	border: 1em;
-	margin: 0;
-	padding: 0em;
+	background-color: #C40233;
+	border: 5em;
+	margin-right: 0.125em;
+	padding-bottom: 0.25em;
 	color: white;
 	font-family: 'Slabo 27px', serif;
 	font-size: 2em;
@@ -73,7 +73,7 @@ ol{
 
 
 #submit{
-	background-color: #ED2B2B;
+	background-color: #C40233;
 	font-family: 'Lato', sans-serif;
     color: white;
     padding:0.5em;
